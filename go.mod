@@ -5,7 +5,6 @@ go 1.18
 require (
 	github.com/satori/go.uuid v1.2.0
 	github.com/sirupsen/logrus v1.9.0
-	github.com/spaolacci/murmur3 v1.1.0
 	github.com/tealeg/xlsx v1.0.5
 )
 

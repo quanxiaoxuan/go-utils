@@ -5,13 +5,7 @@ import (
 	"crypto/md5"
 	"crypto/sha1"
 	"encoding/hex"
-
-	"github.com/spaolacci/murmur3"
 )
-
-func Hash(data []byte) uint64 {
-	return murmur3.Sum64(data)
-}
 
 // MD5加密
 func MD5(s string) string {
