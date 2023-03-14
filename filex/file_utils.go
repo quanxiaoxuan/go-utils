@@ -72,7 +72,7 @@ func Suffix(path string) string {
 	return filepath.Ext(filepath.Base(path))
 }
 
-// 去除后缀
+// 获取文件名(不带后缀)
 func FileName(path string) string {
 	fullName := filepath.Base(path)
 	return strings.TrimSuffix(fullName, filepath.Ext(fullName))
